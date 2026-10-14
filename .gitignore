@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Worker development artifacts
+node_modules/
+.wrangler/
+vendor/
+python_modules/
+.dev.vars
+.pytest_cache/
+.ruff_cache/
+.venv-workers/

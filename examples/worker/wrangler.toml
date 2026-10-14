@@ -1,0 +1,12 @@
+name = "sqlalchemy-durable-object-example"
+main = "src/entry.py"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["python_workers"]
+
+[[durable_objects.bindings]]
+name = "DATABASE"
+class_name = "Database"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Database"]

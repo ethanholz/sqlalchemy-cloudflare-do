@@ -1,0 +1,22 @@
+lock-version = "1.0"
+created-by = "uv"
+requires-python = ">=3.13.2"
+
+[[packages]]
+name = "sqlalchemy"
+version = "2.0.54"
+wheels = [{ url = "https://files.pythonhosted.org/packages/24/a1/bd5e3e99bc9c8863b51ac5b9b03008a7f2da8c6b59695992f5c654e1265b/sqlalchemy-2.0.54-py3-none-any.whl", upload-time = 2026-09-15T22:24:22Z, size = 1958015, hashes = { sha256 = "7e33a631ab1474f8fe6b910bd1a07b7b8009c4c78cdd3fb18001b03e3bc2e1d2" } }]
+
+[[packages]]
+name = "sqlalchemy-cloudflare-do"
+directory = { path = "../../", editable = false }
+
+[[packages]]
+name = "typing-extensions"
+version = "4.16.0"
+wheels = [{ url = "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl", upload-time = 2026-07-02T08:40:04Z, size = 45571, hashes = { sha256 = "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8" } }]
+
+[[packages]]
+name = "workers-runtime-sdk"
+version = "1.9.3"
+wheels = [{ url = "https://files.pythonhosted.org/packages/aa/06/9472faa56bf7f3925d1128fda0532a9ec8adf3291a6003a4cf9c9d7972d0/workers_runtime_sdk-1.9.3-py3-none-any.whl", upload-time = 2026-10-06T04:01:16Z, size = 39541, hashes = { sha256 = "b3982ef01b824703258bbdd2c65980b8acc64f9dc5797f6b193eaf4f0808860f" } }]

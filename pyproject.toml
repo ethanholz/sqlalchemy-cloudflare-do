@@ -1,0 +1,24 @@
+[project]
+name = "sqlalchemy-cloudflare-do"
+version = "0.1.0"
+description = "SQLAlchemy dialect for SQLite-backed Cloudflare Durable Objects"
+readme = "README.md"
+authors = [
+    { name = "Ethan Holz", email = "ethan.holz@thoriumworks.com" }
+]
+requires-python = ">=3.13"
+dependencies = ["sqlalchemy>=2.0.36,<2.1"]
+
+[project.entry-points."sqlalchemy.dialects"]
+cloudflare_do = "sqlalchemy_cloudflare_do.dialect:DurableObjectDialect"
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.11"]
+
+[tool.uv]
+# Rebuild the non-editable wheel bundled by pywrangler after source edits.
+cache-keys = [{ file = "pyproject.toml" }, { file = "README.md" }, { file = "src/**/*.py" }]
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
